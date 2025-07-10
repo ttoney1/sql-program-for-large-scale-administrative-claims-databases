@@ -42,18 +42,7 @@ SELECT *, 'condition'  AS source  FROM pwb_ttoney.titan11_co UNION ALL
 SELECT *, 'procedure'  AS source  FROM pwb_ttoney.titan11_pr
 
 
-
-
-
-
-
-
-
-
-
-
-
-MAKE FINAL TABLE – FORMATTING COLUMNS 
+--MAKE FINAL TABLE – FORMATTING COLUMNS 
 --OPTUM EHR PanTher
 --UPDATE TO ABOVE TABLE --STACK INSTEAD OF JOIN
 
@@ -111,22 +100,6 @@ FROM pwb_ttoney.titan11_pr;
 SELECT * FROM pwb_ttoney.titan11
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 --DeSC --data pull
 
 --for DeSC, must join drug table to vocab concept table
@@ -173,7 +146,6 @@ GROUP BY VOCABULARY_ID;
 SELECT *, 'drug'  AS source FROM pwb_ttoney.titan14_de UNION ALL
 SELECT *, 'condition'  AS source  FROM pwb_ttoney.titan14_co UNION ALL
 SELECT *, 'procedure'  AS source  FROM pwb_ttoney.titan14_pr
-
 
 
 --drug part 2
