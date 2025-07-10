@@ -1,5 +1,5 @@
 # sql-program-for-large-scale-administrative-claims-databases
-SQL program to create a new table within the cloud data management platform by joining multiple tables and summarizing tables in large-scale healthcare administrative claims databases
+SQL program to create a new concolidated data set within the cloud data management platform by joining multiple tables and summarizing tables in large-scale healthcare administrative claims databases
 
 Part of SQL program to perform multiple joins and summaries of tables within large-scale healthcare administrative claims databases (billions of patient records for each hospital visit, diagnosis, lab, condition) Final table created in Databrick cloud data management platform  provides a summary of data sources from  claims databases that have been analyzed. Here's what each column represents:
 
