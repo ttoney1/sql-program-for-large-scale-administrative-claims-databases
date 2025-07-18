@@ -1,7 +1,8 @@
 # sql-program-for-large-scale-administrative-claims-databases
-SQL program to create a new consolidated dataset within the cloud data management platform by joining multiple tables, computing new columns through sub-queries, subsetting, aggregating, and summarizing tables from large-scale healthcare administrative claims databases
+SQL program to create a new consolidated data table within the cloud data management platform by joining multiple tables, computing new columns through sub-queries, subsetting, aggregating, and summarizing tables from large-scale healthcare administrative claims databases
+Note. Created the new database for the table in the terminal through Bash commands. 
 
-Part of the SQL program to perform multiple joins and summaries of tables within large-scale healthcare administrative claims databases (billions of patient records for each medication exposure, lab, condition). Final table created in Databricks cloud data management platform provides a summary of data sources from claims databases that have been analyzed. Below is what each column represents:
+Part of the SQL program to perform multiple joins and summaries of tables within large-scale healthcare administrative claims databases (billions of patient records for each hospial visit that collected medication exposure, lab, condition). Final table created in Databricks cloud data management platform provides a summary of data sources from claims databases that have been analyzed. Below is what each column in the final represents:
 
 Name: The name of the database (e.g., Clinical Practice Research Datalink (CPRD) GOLD).
 
